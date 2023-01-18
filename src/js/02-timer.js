@@ -15,6 +15,7 @@ let intervalId = null;
 startBtnEl.setAttribute('disabled', 'true');
 startBtnEl.addEventListener('click', () => {
     start();
+    startBtnEl.disabled = true;
 });
 
 // Необов'язковий об'єкт параметрів для функції flatpickr(selector, options) 

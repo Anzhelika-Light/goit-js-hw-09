@@ -42,6 +42,8 @@ const onSubmit = e => {
   
   delayTime += stepTime;
   }
+
+  formEl.reset();
 };
 
 // Event = submit
