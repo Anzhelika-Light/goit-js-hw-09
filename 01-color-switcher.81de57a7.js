@@ -1,0 +1,2 @@
+const t=document.querySelector("button[data-start]"),e=document.querySelector("button[data-stop]"),o=document.body;let l=null;console.log("Hello"),t.addEventListener("click",(()=>{btnStartEl.disabled=!0,btnStopEl.disabled=!1,l=setInterval((()=>{o.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16)}`}),1e3)})),e.addEventListener("click",(()=>{clearInterval(l),btnStartEl.disabled=!1,btnStopEl.disabled=!0,Notiflix.Notify.info("Great choice!")}));
+//# sourceMappingURL=01-color-switcher.81de57a7.js.map

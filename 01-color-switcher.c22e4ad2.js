@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector("button[data-start]"),o=document.querySelector("button[data-stop]"),n=document.body,e=null;console.log("Hello"),t.addEventListener("click",(function(){btnStartEl.disabled=!0,btnStopEl.disabled=!1,e=setInterval((function(){n.style.backgroundColor="#".concat(Math.floor(16777215*Math.random()).toString(16))}),1e3)})),o.addEventListener("click",(function(){clearInterval(e),btnStartEl.disabled=!1,btnStopEl.disabled=!0,Notiflix.Notify.info("Great choice!")}))}();
+//# sourceMappingURL=01-color-switcher.c22e4ad2.js.map
